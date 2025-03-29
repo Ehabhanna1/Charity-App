@@ -23,11 +23,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Charity App',
+      
       theme: ThemeData(
       
       ),
       home: const HomeScreen(),
-      
+
     );
   }
 }
