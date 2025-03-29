@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 
 
 void main() {
+
   WidgetsFlutterBinding.ensureInitialized();
   Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform ,
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Charity App',
       theme: ThemeData(
       
